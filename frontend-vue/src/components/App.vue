@@ -147,7 +147,7 @@ export default {
       try {
         const response = await axios.get(
           // "http://localhost:8085/crypto/api/v1/coin/market"
-          "http://localhost:8095/crypto/coingecko/v1/coin/market"
+          "http://localhost:8085/crypto/api/v1/coin/market"
         );
         coins.value = response.data;
       } catch (err) {
